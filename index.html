@@ -12,11 +12,11 @@
     <div class="container">
       <div class="jumbotron">
         <img src="" alt="" />
-        <h1>Pizza Helmets</h1>
+        <h1>Pizza Helmet Site!</h1>
       </div>
       <form id="order">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-10">
             <div class="form-group form-group-lg">
               <div class="panel panel-default">
                 <div class="panel-heading">
@@ -24,45 +24,44 @@
                 </div>
                 <div class="panel-body">
                   <select id="size">
-                    <option value="S 12">Small 12"</option>
-                    <option value="M 14">Medium 14"</option>
-                    <option value="L 16">Large 16"</option>
-                    <option value="XL 18">Extra Large 18"</option>
+                    <option value="Personal">Small 12"</option>
+                    <option value="Medium">Medium 14"</option>
+                    <option value="Large">Large 16"</option>
+                    <option value="Gigantic">Extra Large 18"</option>
                   </select>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-10">
             <div class="form-group">
                <div class="panel panel-default">
                  <div class="panel-heading">
-                   <h3 class="panel-title">Toppings</h3>
+                   <h3 class="panel-title">What would you like on it?</h3>
                  </div>
                  <div class="panel-body" id="toppings">
-                   <input type="checkbox" name="toppings" value="plain sauce">Plain Sauce<br>
-                   <input type="checkbox" name="toppings" value="cheesy">Cheesy<br>
-                   <input type="checkbox" name="toppings" value="meaty">Meaty<br>
-
-                   <input type="checkbox" name="toppings" value="veggie">Vegetarian<br>
-                   <input type="checkbox" name="toppings" value="Vegan">Vegan<br>
+                   <input type="checkbox" name="toppings" value="Lots of sauce">Extra Sauce<br>
+                   <input type="checkbox" name="toppings" value="Lots of cheese">Cheese Lovers<br>
+                   <input type="checkbox" name="toppings" value="Lots of meats">Meat Lovers<br>
+                   <input type="checkbox" name="toppings" value="Vegetarian stuff">Vegetarian Lovers<br>
+                   <input type="checkbox" name="toppings" value="Vegan Nonsense">Vegan Lovers<br>
                  </div>
                </div>
              </div>
           </div>
         </div>
         <div class="submitButton">
-         <button type="submit" class="btn btn-lg btn-success">Order Button</button>
+         <button type="submit" class="btn btn-info">FINISH</button>
        </div>
       </form>
       <div class="row">
-        <div class="col-md-12" id="order-results">
+        <div class="col-md-12" id="order-status">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Your Helmet Selection/h3>
             </div>
             <div class="panel-body">
-              <h2>You've ordered: <span id="pizza-size"></span> helmet with <span id="pizza-toppings"></span>.</h2>
+              <h2>You've ordered: <span id="pizza-size"></span> Helmet with <span id="pizza-toppings"></span>.</h2>
               <br><br>
               <h3>Your total will be:</h3>
               <div class="well well-lg" id="pizza-price">
