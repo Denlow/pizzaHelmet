@@ -1,0 +1,62 @@
+
+
+.jumbotron {
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.66);
+
+}
+
+.jumbotron img {
+  float: center;
+  width: 30%;
+
+}
+
+body {
+  background-color: hotpink;
+
+}
+
+button {
+  width: 100%;
+
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  font-family: monospace;
+}
+
+h2 {
+  font-size: 250%;
+  font-family: cursive;
+  color: black;
+  display: inline;
+  line-height: 320%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 350%;
+  font-family: cursive;
+  color: red;;
+  text-align: center;
+}
+
+#left {
+  width: 25%;
+  margin: 0%;
+  padding: 0%;
+  display: inline-block;
+}
+
+#right {
+  width: 25%;
+  margin: 0%;
+  padding: 0%;
+  float: right;
+}
+
+.well {
+  background-color: rgba(255,255,255,0.4);
