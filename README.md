@@ -1,38 +1,33 @@
-Pizza Helmets!
+A Pizza Shop Demo: Object Oriented Programmming
 
-A web based pizza company that turns actual pizzas into wearable helmets.
+by Dave Denlow
 
-By Dave Denlow
+Created a Pizza SHop Demo using object oriented programming. User inputs specific toppings and "helmet" (dough) and the code returns total cost and what selection the user made. 
 
-Description
+Step 1
+Create Object Constructor
+Constructor will hold two empty arrays
 
-A website designed to show off the incredible possibilities one can do with pizza.
+step 2
+set HTML checkbox forms
+gather checkbox data with JQuery
+Loop through checkbox values and push to empty object arrays
 
+step 3
+create prototype to loop through array values
+add up values and return a total
+use JQuery to output total onto page
 
-
-Setup/Installation Requirements
-
-No installation required, only a web browser is needed. 
-
-Specifications
-
-website goes through motions of selecting for pizza HELMET SIZES and TOPPINGS, 
-user navigates through specific inputs and clicks submit button for how much they will have to pay for their pizza helmet. 
-
-Known Bugs
-
-No known issues at this time
+Setup Instructions:
+Download from repository (github)
+open Index file in browser
+OR enter in browser URL: Denlow.github.io/pizzaHelmet/
 
 Support and contact details
+Dave Denlow
+DaveDenlow@gmail.com
+314 606 6421
 
-Helmets are safer than not wearing helmets.
+Licensing:
 
-Technologies Used
-
-Javascript, jQuery, bootstrap, Pizza pics, pizza, internet.
-
-License
-
-Totally down to license this website.
-
-Copyright (c) 2016 Denlow
+This site is free to the public. 
